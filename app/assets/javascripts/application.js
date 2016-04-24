@@ -15,3 +15,9 @@
 //must be placed after jquery
 //= require turbolinks
 //= require_tree .
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
