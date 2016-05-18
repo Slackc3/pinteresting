@@ -21,7 +21,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 gem 'devise', '~> 4.1', '>= 4.1.1'
 gem "paperclip", "~> 5.0.0.beta1"
-gem 'aws-sdk', '~> 2.3'
+gem 'aws-sdk', '< 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 group :development , :test do
 gem 'sqlite3'
