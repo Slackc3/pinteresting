@@ -13,11 +13,7 @@
 //= require jquery_ujs
 //= require bootstrap 
 //must be placed after jquery
-//= require turbolinks
+//= require masonry/jquery.masonry
+//= require masonry/jquery.imagesloaded.min
 //= require_tree .
-$(function () {
-  $('[data-toggle="popover"]').popover()
-})
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
+

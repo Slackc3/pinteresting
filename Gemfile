@@ -22,6 +22,9 @@ gem 'bootstrap-sass'
 gem 'devise', '~> 4.1', '>= 4.1.1'
 gem "paperclip", "~> 4.2"
 gem 'aws-sdk', '< 2.0'
+gem 'masonry-rails', '~> 0.2.0'
+#gem 'jquery-turbolinks'
+
 # bundle exec rake doc:rails generates the API under doc/api.
 group :development , :test do
 gem 'sqlite3'
