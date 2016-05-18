@@ -33,7 +33,7 @@ group :production do
 end
 
 group :doc do
-	gem 'sdoc', '~> 0.4.0'
+	gem 'sdoc', '< 2.0'
 end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
