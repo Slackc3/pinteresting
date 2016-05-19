@@ -9,7 +9,8 @@ $brand-primary:							purple;
 $jumbotron-bg:							#ecf0f1;
 $tooltip-opacity:						.7;
 @import 'bootstrap';
-
+@import 'bootstrap-sprockets';
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 .center {
 	text-align: center;
 }
